@@ -1,0 +1,58 @@
+/* Bootstrap Icon CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* Reusable Components */
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+}
+/* Header Styles */
+.navbar-brand img{
+    width: 200px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #A4BC46;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #738f02;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #738f02;
+}
+/* Banner Section Style */
+.bannerArea{
+    background-color: #FFFBF0;
+    padding: 60px 0;
+}
+.banrHdr{
+    font-size: 50px;
+    font-weight: 700;
+    color: #FACC15;
+}
+.banrHdr span{
+    color: #000;
+}
+.bannerArea .box{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.bannerArea .box button:hover{
+    background-color: #fff;
+    border: 2px solid orange;
+    color: #000 !important;
+}
+.womanManShop .box h1{
+    font-size: 40px;
+}
+.womanManShop .box button.btn{
+    font-size: 18px !important;
+    padding: 10px 20px !important;
+}
